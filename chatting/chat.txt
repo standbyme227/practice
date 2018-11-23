@@ -1,0 +1,12 @@
+{'user': '신종민', 'message': '589d8817-0e98-4a6d-b8d3-91f9db3e5777', 'time_stamp': '2018-11-22 09:53:56.207103'}
+{'user': '임정택', 'message': '112ce7e4-bff2-4769-bd27-6bb8fc65b98f', 'time_stamp': '2018-11-22 09:53:56.207674'}
+{'user': '홍석재', 'message': '4348492c-20bf-46d6-a0c2-7868eb0c4442', 'time_stamp': '2018-11-22 09:53:56.207750'}
+{'user': '신종민', 'message': 'f31edf5f-6c2d-469c-b614-cf8032a3ac0b', 'time_stamp': '2018-11-22 09:53:56.208233'}
+{'user': '홍석재', 'message': '2b9fa0e3-375a-4576-91dc-d89bbf8cd628', 'time_stamp': '2018-11-22 09:53:56.208269'}
+{'user': '임정택', 'message': '4ec1e56d-d386-4dc7-88d0-9c1ceb61e83d', 'time_stamp': '2018-11-22 09:53:56.208403'}
+{'user': '홍석재', 'message': 'd5c1e7e9-a57c-419a-92ca-a9b936257345', 'time_stamp': '2018-11-22 09:53:56.208724'}
+{'user': '임정택', 'message': '389d5dc7-e39c-466f-9ca2-f564412419a9', 'time_stamp': '2018-11-22 09:53:56.208915'}
+{'user': '신종민', 'message': 'bed15cfb-d0b3-4b5a-a256-c2dd907b5441', 'time_stamp': '2018-11-22 09:53:56.208949'}
+{'user': '임정택', 'message': '982abab3-0181-45e1-8415-2353aeb203d4', 'time_stamp': '2018-11-22 09:53:56.209396'}
+{'user': '홍석재', 'message': 'ae940ffa-6ea8-4bb4-aeda-fc7ba11d5d4c', 'time_stamp': '2018-11-22 09:53:56.209727'}
+{'user': '임정택', 'message': '336f31df-ecfd-4eee-90da-46c0e5cd9a29', 'time_stamp': '2018-11-22 09:53:56.209763'}

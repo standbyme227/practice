@@ -77,7 +77,7 @@ class Chat:
             return
         cur_message = all_messages[0]
         print(cur_message)
-        # self.store_completed_the_message(cur_message)
+        self.store_completed_the_message(cur_message)
 
         text_file.seek(0)
         del all_messages[0]
@@ -92,13 +92,13 @@ class Chat:
         self.send_the_message()
 
 
-    # def store_completed_the_message(self, message, file_path=None):
-    #     # with self.lock:
-    #     if file_path is None:
-    #         file_path = self.COMPLETED_FILE_PATH
-    #     text_file = open(file_path, 'a')
-    #     text_file.write(message)
-    #     text_file.close()
+    def store_completed_the_message(self, message, file_path=None):
+        # with self.lock:
+        if file_path is None:
+            file_path = self.COMPLETED_FILE_PATH
+        text_file = open(file_path, 'a')
+        text_file.write(message)
+        text_file.close()
 
 
 # class Simulator:
@@ -119,9 +119,9 @@ class Simulator:
     def __init__(self, chat):
         self.chat = chat
 
-    # def simulate_chat(self, count):
-    #     for i in range(count):
-    #         self.chat.run()
+    def simulate_chat(self, count):
+        for i in range(count):
+            self.chat.run()
 
 
 def compare_by_timestamp(file_path=None):
@@ -146,7 +146,7 @@ def compare_by_timestamp(file_path=None):
             print("threading이 잘못처리됐습니다.")
 
 
-def run_threads(self, chats):
+def run_threads(chats):
     type_count = [6, 7, 8, 9, 10, 11]
     threads = []
 
@@ -154,7 +154,7 @@ def run_threads(self, chats):
         random.shuffle(type_count)
         args = (type_count[1],)
         simulator = Simulator(chat)
-        thread = Thread(target=simulator., args=args)
+        thread = Thread(target=simulator.simulate_chat, args=args)
         threads.append(thread)
         thread.start()
 

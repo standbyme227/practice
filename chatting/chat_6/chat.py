@@ -143,14 +143,14 @@ class Simulator:
     def type_messages(self, count):
         for i in range(count):
             # lock.acquire()
-            with lock:
-                self.chat.type_a_message()
+            # with lock:
+            self.chat.type_a_message()
             # lock.release()
 
     def send_messages(self, count):
         for i in range(count):
-            with lock:
-                self.chat.send_the_message()
+            # with lock:
+            self.chat.send_the_message()
             # lock.release()
 
 

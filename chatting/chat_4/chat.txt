@@ -1,0 +1,5 @@
+{'user': '임정택', 'message': '48cf5889-546a-4aa8-8e4b-83933bbe7e35', 'time_stamp': '1543063399.071123'}
+{'user': '홍석재', 'message': '827884a1-2fe6-4b3b-89f3-e9dab505a23a', 'time_stamp': '1543063399.072217'}
+{'user': '신종민', 'message': '0686d5a4-a4f0-4df9-b587-d76a9f77ac53', 'time_stamp': '1543063399.072735'}
+{'user': '신종민', 'message': '545fe86e-a9b1-49ca-a781-3046e13940a3', 'time_stamp': '1543063399.076655'}
+{'user': '신현종', 'message': 'e7be90e3-cfce-430c-818a-e28cc4ec8ee6', 'time_stamp': '1543063399.078593'}
